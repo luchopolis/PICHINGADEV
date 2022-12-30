@@ -1,0 +1,116 @@
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="autor" content="PICHINGA DEV"> 
+    <link href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/estilos.css">
+    <script src="https://kit.fontawesome.com/c4254e24a8.js" crossorigin="anonymous"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,600;1,300;1,400&family=Roboto:ital,wght@0,400;0,500;1,300;1,400&display=swap');
+        </style>
+
+    <title>Acerca  de</title>
+</head>
+<body>
+    <header id="header">
+        <div class="container__header">
+            <div class="logo">
+                <img src="img/logo blanco.png" alt="">
+            </div>
+            <div class="container__nav">
+                <nav id="nav">
+                    <ul>
+                        <li><a href="home.html"  id="inicio">Inicio</a></li>
+                        <li><a href="servicios.html">Servicios</a></li>
+                        <li><a href="nuestrotrabajo.html">Nuestro Trabajo</a></li>
+                        <li><a href="acercade.html">Acerca de</a></li>
+                        <li><a href="contacto.html" class="select">Contáctanos</a></li>
+                    </ul>
+                </nav>
+                <div class="btn__menu" id="btn_menu"><i class="fas fa-bars"></i></div>
+            </div>
+        </div>
+    </header>
+<body>
+    <main>
+        <section>
+            <div class="cover__all-contact-container" id="container_all">
+                <div class="cover__contact">
+                <div class="container-contact">
+                    <div class="container-text-contact" id="hero-text" >
+                           <h1> Creamos lo que tu imaginas</h1>
+                           <p>Escríbenos</p>
+                    </div>
+                    <div class="img__contact__container">
+                        <img src="img/contact.png" alt="" id="hero-img">
+                    </div>
+                </div>
+            </div>
+        </div>
+        </section>
+        <section >
+           <form  class="form" action="https://formspree.io/f/xdobkrwn"
+           method="POST">
+               <div class="form__container">
+                   <h2 class="form__title">Contáctanos</h2>
+                   <input type="text" class="form__input" placeholder="Name" name="name">
+                   <input type="text" class="form__input" placeholder="Email" name="_replyto">
+                   <textarea class="form__input form__input--message" placeholder="Message" name="message"></textarea>
+                   <input type="submit" value="Send" class="form__cta">
+               </div>
+           </form>
+          </section>
+           <!--footer-->
+           <footer>
+            <div class="row">
+                <div class="col">
+                    <img src="img/logo blanco.png" class="logo" alt="">
+                    <p>Proponemos soluciones a partir de sus ideas, brindando precios acorde a sus necesidades y proyectos</p>
+                    
+                </div>
+                <div class="col">
+                    <h3>Links  <div class="underline"><span></span></div></h3>
+                    <ul>
+                        <li><a href="home.html">Inicio</li>
+                        <li><a href="servicios.html">Servicios</a></li>
+                        <li><a href="nuestrotrabajo.html">Nuestro Trabajo</a></li>
+                        <li><a href="acercade.html">Acerca de</a></li>
+                        <li><a href="contacto.html">Contacto</a></li>
+                    </ul>
+                </div>
+                <div class="col">
+                    <h3>Redes <div class="underline"><span></span></div></h3>
+                    <div class="social-icons">
+                       <a href="https://www.facebook.com/pichingadev"><i class="fab fa-facebook"></i></a> 
+                        <i class="fab fa-instagram"></i>
+                        <a href="https://twitter.com/PichingaD"><i class="fab fa-twitter"></i></a>
+                       <a href="https://github.com/PichingaDEV"><i class="fab fa-github"></i></a> 
+                        <a href="https://dribbble.com/pichingadev"><i class="fab fa-dribbble"></i></a>
+                        <a href="https://blog.pichingadev.com/"><i class="fas fa-blog"></i></a>
+                    </div>
+                </div>
+                <!-- <div class="col">
+                    <H3>Consultas <div class="underline"><span></span></div> </H3>
+                    <form action="">
+                        <i class="far fa-envelope"></i>
+                        <input type="email" placeholder="Ingrese su correo electronico" required>
+                        <button type="submit"><i class="fas fa-arrow-right"></i></button>
+                    </form>
+                </div>-->
+            </div>
+            <hr>
+            <p class="copyright">PichingaDev Corporation © 2022 | Todos los Derechos Reservados | Diseño Web • Marketing Digital • Email Corporativo </p>
+        </footer> 
+        <script>
+            setTimeout(function() {
+                           document.getElementById('hero-text').style.opacity= '1';
+                       }, 1500)
+                       setTimeout(function() {
+                           document.getElementById('hero-img').style.opacity= '2';
+                       }, 2500)
+       </script>
+       <script src="js/menu.js"></script>
+    </main>
+</body>
+</html>
